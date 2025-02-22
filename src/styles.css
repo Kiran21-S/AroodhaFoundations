@@ -8,8 +8,6 @@
   }
   
   .carousel {
-    width: 60vw;
-    height: 60vh;
     position: relative;
     aspect-ratio: 16/10;
   }
@@ -28,8 +26,6 @@
   
   .slide > img {
     display: block;
-    width: 60vw;
-    height: 60vh;
     object-fit: cover;
     object-position: center;
   }
@@ -45,7 +41,6 @@
     z-index: 2;
     background: none;
     border: none;
-    font-size: 4rem;
     top: 50%;
     transform: translateY(-50%);
     color: rgba(255, 255, 255, .5);
